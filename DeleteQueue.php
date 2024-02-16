@@ -5,7 +5,7 @@ if (isset($_GET['Pid'])) {
     $strID = $_GET['Pid'];
 }
 
-
+//
 
 
 $sql = "DELETE FROM queue WHERE Pid = :Pid";
